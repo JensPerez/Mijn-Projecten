@@ -15,11 +15,6 @@ body
   align-items: center;
 }
 
-
-
-
-
-
 .container 
 {
   max-width: 1400px;
@@ -27,8 +22,10 @@ body
   background-color: #292929cf;
   height: 100%;
   min-height: 100vh; /* dit heb ik aan chatGPT gevraagd.. sorry */
-  /* opacity: 95%; */
   overflow: auto;
+}
+div.fade
+{ 
   -webkit-mask-image: linear-gradient(
   to right,
   rgba(0, 0, 0, 0) 0%,
@@ -55,7 +52,13 @@ mask-image: linear-gradient(
   rgba(0, 0, 0, 0.2) 95%,
   rgba(0, 0, 0, 0) 100%
 );
-  }
+}
+div.ervaringenbox
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
   
 .container h1 
 {
@@ -71,10 +74,39 @@ div.flexcolcenter
   align-items: center;
   margin-top: 20px;
 }
-div.flexcolcenter p 
+div.flexrowleft 
+{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-left: 150px;
+}
+div.flexrowright 
+{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-right: 150px;
+}
+div.flexcolcenter p
 {
   max-width: 50%;
+}
+div.flexrowleft p,
+div.flexrowright p
+{
+  max-width: 70%;
+}
+
+p.fontsize22
+{
   font-size: 22px;
+}
+p.fontsize18
+{
+  font-size: 25px;
 }
 div.flexcolcenter div 
 {
@@ -89,6 +121,14 @@ p
 {
   text-align: center;
 }
+.textright
+{
+  text-align: end;
+}
+.textleft
+{
+  text-align: start;
+}
 .mb15 {
   margin-bottom: 15px;
 }
@@ -96,7 +136,14 @@ p
 {
   margin-bottom: 50px;
 }
-
+.ml20
+{
+  margin-left: 20px;
+}
+.mr20
+{
+  margin-right: 20px;
+}
 nav.head 
 {
   background-color: #6060609a;
@@ -118,13 +165,30 @@ nav.head a
   font-size: 30px;
   font-weight: bold;
 }
+
 nav.head a:hover 
 {
   color: white;
   text-shadow: 0 0 20px #1400ea, 0 0 30px #a7c9eb;
 }
+
 a 
 {
   text-decoration: none;
   color: white;
+}
+
+img.ervaringen 
+{
+  max-width: 170px;
+  max-height: 170px;
+  min-width: 170px;
+  min-height: 170px;
+  border-radius: 13px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img.ervaringen:hover 
+{
+  transform: scale(1.05);
 }
