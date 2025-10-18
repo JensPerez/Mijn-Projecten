@@ -5,7 +5,7 @@
 
 body {
   font-family: "Sansation", Arial, sans-serif;
-  background-image: url(./images/background.jpg);
+  background-image: url(/website-project-1/images/background.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -72,6 +72,12 @@ div.flexrowboxCV {
   display: flex;
   justify-content: center;
   border: 1px solid white;
+}
+div.flexrowboxCV h2
+{
+  color: #3d9eff;
+  font-weight: bold;
+  font-size: 28px;
 }
 div.flexrowboxForm {
   display: flex;
