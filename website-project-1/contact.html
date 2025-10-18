@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="main.css" />
+
+  <title>Contact page</title>
+</head>
+
+<body>
+  <main>
+    <section>
+      <div class="outercontainer">
+        <div class="innercontainer fade">
+          <h1 class="mb50">Contacteer me</h1>
+          <div class="flexrowboxForm">
+            <div class="flexcolboxForm">
+              <div class="flexcolcenterForm">
+                <h2>Mail me als je vragen of voorstellen hebt!</h2>
+
+                <form method="post" action="https://tm-statweb.be/sendmail.php">
+                  <input type="hidden" name="studentemail" value="r1100216@student.thomasmore.be">
+
+                  <div>
+                    <input type="text" name="Voornaam" placeholder="Voornaam" required>
+
+                  </div>
+                  <div>
+                    <input type="text" name="Achternaam" placeholder="Achternaam" required>
+
+                  </div>
+                  <div>
+                    <input type="email" name="email" placeholder="E-mail" required>
+
+                  </div>
+                  <div>
+                    <textarea name="message" placeholder="Plaats hier je bericht" required></textarea>
+
+                  </div>
+                  <div>
+                    <input type="submit" value="Verstuur"></input>
+
+                  </div>
+
+
+
+                </form>
+              </div>
+            </div>
+            <div class="flexcolboxSocials">
+              <p>Mijn socials!</p>
+              <a href="https://discordapp.com/users/1380524969330737324" target="_blank"
+                alt="Link naar mijn discord pagina">
+                <p>Discord <span><i class="fa-brands fa-discord"></i></span></p>
+              </a>
+              <a href="www.linkedin.com/in/jens-perez-queipo-345711386" target="_blank"
+                alt="Link naar mijn LinedIn pagina">
+                <p>Linked <span><i class="fa-brands fa-linkedin-in"></i></span></p>
+              </a>
+              <a href="https://www.github.com" target="_blank" alt="Link naar mijn GitHub pagina">
+                <p>GitHub <span><i class="fa-brands fa-github"></i></span></p>
+              </a>
+
+
+
+
+
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p>&copy; 2025 Jens Perez-Queipo. Alle rechten voorbehouden.</p>
+      <div class="footer-icons">
+        <a href="mailto:perez.jens@hotmail.be" title="E-mail">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com" target="_blank" title="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://github.com" target="_blank" title="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
