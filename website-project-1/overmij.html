@@ -2,15 +2,16 @@
 <html lang="nl-BE">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
-    rel="stylesheet" />
-    <link rel="icon" type="image/png" href="/website-project-1/images/Favicon_Ver_01.png">
-  <link rel="stylesheet" href="/CSS/main.css" />
+    rel="stylesheet">
+  <link rel="icon" type="image/png" href="/images/Favicon_Ver_01.png">
+  <link rel="stylesheet" href="/CSS/main.css">
 
   <title>Over mij</title>
 </head>
@@ -18,11 +19,23 @@
 <body>
   <main>
     <section>
+      <div class="fade">
+
+        <nav class="head">
+          <a href="index.html" aria-label="Link naar Hoofdpagina">Hoofdpagina</a>
+          <a href="hobbys.html" aria-label="Link naar Hobby's">Hobby's</a>
+          <a href="ervaringen.html" aria-label="Link naar ervaringen">Ervaringen</a>
+          <a href="cv.html" aria-label="Link naar Mijn CV">Mijn CV</a>
+          <a href="contact.html" aria-label="Link naar Contacteer me">Contacteer me</a>
+        </nav>
+      </div>
       <div class="outercontainer">
 
         <div class="innercontainer fade">
-          <h1 class="mb50">Over Mij</h1>
+          <h1 class="mb50 mt30">Over Mij</h1>
           <div class="flexcolbox">
+
+
 
             <div class="flexcolcenter">
               <p class="textcenter fontsize22">
@@ -45,13 +58,32 @@
                 verder te ontwikkelen en om te blijven leren, verbeteren en
                 creëren.
               </p>
-              <img class="overmij" src="/website-project-1/images/Monding.jpg" alt="Afbeelding van Monding">
+              <img class="overmij" src="/images/Monding.jpg" alt="Afbeelding van Monding">
             </div>
+
           </div>
+
         </div>
+
       </div>
     </section>
   </main>
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p>&copy; 2025 Jens Perez-Queipo. Alle rechten voorbehouden.</p>
+      <div class="footer-icons">
+        <a href="mailto:perez.jens@hotmail.be" title="E-mail">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com" target="_blank" title="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://github.com" target="_blank" title="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>

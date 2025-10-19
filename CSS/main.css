@@ -5,7 +5,7 @@
 
 body {
   font-family: "Sansation", Arial, sans-serif;
-  background-image: url(/website-project-1/images/background.jpg);
+  background-image: url(/images/background.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -21,6 +21,7 @@ body {
   background-color: #292929cf;
   min-height: 100vh;
   overflow: auto;
+  padding-top: 30px;
 }
 div.fade {
   -webkit-mask-image: linear-gradient(
@@ -54,7 +55,16 @@ div.flexcolbox {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  border: 1px solid white;
 }
+div.flexcolboxErvaringen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 div.flexcolboxSocials {
   display: flex;
   flex-direction: column;
@@ -73,8 +83,7 @@ div.flexrowboxCV {
   justify-content: center;
   border: 1px solid white;
 }
-div.flexrowboxCV h2
-{
+div.flexrowboxCV h2 {
   color: #3d9eff;
   font-weight: bold;
   font-size: 28px;
@@ -99,13 +108,12 @@ div.flexcolboxForm {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: #2e236c76;
   padding: 40px;
   max-width: 75%;
   margin-bottom: 30px;
   margin-top: 28px;
   border-radius: 25px;
-  margin-left: 250px;
+  margin-left: 200px;
 }
 div.flexcolcenterCV {
   display: flex;
@@ -115,6 +123,11 @@ div.flexcolcenterCV {
 }
 
 .innercontainer h1 {
+  color: white;
+  text-align: center;
+  font-size: 5em;
+}
+.flexcolbox h1 {
   color: white;
   text-align: center;
   font-size: 5em;
@@ -143,15 +156,17 @@ div.flexrowleft {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  margin-top: 20px;
+  margin-top: 50px;
   margin-left: 150px;
+  margin-bottom: 50px;
 }
 div.flexrowright {
   display: flex;
   align-items: flex-start;
   justify-content: flex-end;
-  margin-top: 20px;
+  margin-top: 50px;
   margin-right: 150px;
+  margin-bottom: 50px;
 }
 
 div.flextexthobbies {
@@ -235,18 +250,20 @@ p {
 .mt20 {
   margin-top: 20px;
 }
+.mt50 {
+  margin-top: 50px;
+}
 
 nav.head {
-  background-color: #6060609a;
-  height: 70px;
+  background-color: #232426;
+  height: 65px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  width: 80%;
-  max-width: 1000px;
-  margin: 0 auto;
-  border-radius: 50px;
-  border: 2px solid white;
+  gap: 100px;
+  width: 100%;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 nav.head a {
@@ -254,11 +271,13 @@ nav.head a {
   color: #3d9eff;
   font-size: 30px;
   font-weight: bold;
+  transition: transform 0.5s ease;
 }
 
 nav.head a:hover {
   color: white;
   text-shadow: 0 0 20px #1400ea, 0 0 30px #a7c9eb;
+  transform: scale(1.05);
 }
 
 a {
@@ -282,6 +301,7 @@ img.overmij {
   max-width: 70%;
   border-radius: 20px;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 img.hobbys {
   max-width: 220px;
@@ -304,7 +324,7 @@ img.cv {
   max-height: 230px;
   max-width: 230px;
   border-radius: 50%;
-  margin-left: 100px;
+  margin-left: 40px;
   margin-top: 32px;
 }
 
@@ -322,7 +342,7 @@ div form textarea {
   font-size: 16px;
   border-radius: 10px;
   border: 1px solid rgb(17, 0, 255);
-  background-color: rgba(41, 98, 255, 0.326);
+  background-color: rgb(255, 255, 255);
   color: white;
   width: 100%;
   box-sizing: border-box;

@@ -2,15 +2,16 @@
 <html lang="nl-BE">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
-    rel="stylesheet" />
-    <link rel="icon" type="image/png" href="/website-project-1/images/Favicon_Ver_01.png">
-  <link rel="stylesheet" href="/CSS/main.css" />
+    rel="stylesheet">
+  <link rel="icon" type="image/png" href="/images/Favicon_Ver_01.png">
+  <link rel="stylesheet" href="/CSS/main.css">
 
   <title>Main Page</title>
 </head>
@@ -18,54 +19,80 @@
 <body>
   <main>
     <section>
+      <div class="fade">
+
+        <nav class="head">
+          <a href="hobbys.html" aria-label="Link naar Hobby's">Hobby's</a>
+          <a href="ervaringen.html" aria-label="Link naar ervaringen">Ervaringen</a>
+          <a href="overmij.html" aria-label="Link naar Over mij">Over mij</a>
+          <a href="cv.html" aria-label="Link naar Mijn CV">Mijn CV</a>
+          <a href="contact.html" aria-label="Link naar Contacteer me">Contacteer me</a>
+        </nav>
+      </div>
+
       <div class="outercontainer">
+
+
+
         <div class="innercontainer fade">
-          <h1 class="mb50">CodedbyJens</h1>
-          <nav class="head">
-            <a href="ervaringen.html" target="_blank" alt="Link naar ervaringen">Ervaringen</a>
-            <a href="overmij.html" target="_blank" alt="Link naar Over mij">Over mij</a>
-            <a href="cv.html" target="_blank" alt="Link naar Mijn CV">Mijn CV</a>
-            <a href="hobbys.html" target="_blank" alt="Link naar Hobby's">Hobby's</a>
-            <a href="contact.html" target="_blank" alt="Link naar Contacteer me">Contacteer me</a>
-          </nav>
+          <h1 class="mb50 mt30">CodedbyJens</h1>
+          <div class="flexcolbox">
 
-          <div class="flexcolcenter">
-            <div class="flexcolcenter">
-              <p class="textcenter fontsize22">
-                Welkom op mijn portfolio pagina!
-              </p>
-              <p class="textcenter fontsize22">
-                Ik ben Jens Perez-Queipo, een 35-jarige student Graduaat
-                Programmeren aan Thomas More in Turnhout.
-              </p>
-            </div>
-            <div class="flexcolcenter">
-              <p class="textcenter fontsize22">
-                Op deze website verzamel ik mijn schoolprojecten, oefeningen
-                en opdrachten, zodat je een duidelijk beeld krijgt van mijn
-                groei als programmeur, dus deze website zal regelmatig
-                geüpdate worden dus kom zeker af en toe eens een kijkje nemen!
-              </p>
-            </div>
-            <div class="flexcolcenter">
-              <p class="textcenter fontsize22">
-                Als je vragen hebt of eventuele voorstellen klik dan
-                <span><a class="" href="contact.html">hier!</a></span>
-              </p>
-            </div>
 
-            <p class="textcenter fontsize18 mt30">
-              Deze website is <span class="textboldul">nog</span> niet
-              geschikt voor tablets en mobiel.
-            </p>
-            <p class="textcenter fontsize18">
-              hier word aan gewerkt, mijn excuses voor het ongemak!
-            </p>
+            <div class="flexcolcenter">
+              <div class="flexcolcenter">
+                <p class="textcenter fontsize22">
+                  Welkom op mijn portfolio pagina!
+                </p>
+                <p class="textcenter fontsize22">
+                  Ik ben Jens Perez-Queipo, een 35-jarige student Graduaat
+                  Programmeren aan Thomas More in Turnhout.
+                </p>
+              </div>
+              <div class="flexcolcenter">
+                <p class="textcenter fontsize22">
+                  Op deze website verzamel ik mijn schoolprojecten, oefeningen
+                  en opdrachten, zodat je een duidelijk beeld krijgt van mijn
+                  groei als programmeur, dus deze website zal regelmatig
+                  geüpdate worden dus kom zeker af en toe eens een kijkje nemen!
+                </p>
+              </div>
+              <div class="flexcolcenter">
+                <p class="textcenter fontsize22">
+                  Als je vragen hebt of eventuele voorstellen klik dan
+                  <span><a class="" href="contact.html">hier!</a></span>
+                </p>
+              </div>
+
+              <p class="textcenter fontsize18 mt30">
+                Deze website is <span class="textboldul">nog</span> niet
+                geschikt voor tablets en mobiel.
+              </p>
+              <p class="textcenter fontsize18 mb50">
+                hier word aan gewerkt, mijn excuses voor het ongemak!
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </section>
   </main>
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p>&copy; 2025 Jens Perez-Queipo. Alle rechten voorbehouden.</p>
+      <div class="footer-icons">
+        <a href="mailto:perez.jens@hotmail.be" title="E-mail">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com" target="_blank" title="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://github.com" target="_blank" title="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>

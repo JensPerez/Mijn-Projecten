@@ -2,15 +2,16 @@
 <html lang="nl-BE">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
-    rel="stylesheet" />
-    <link rel="icon" type="image/png" href="/website-project-1/images/Favicon_Ver_01.png">
-  <link rel="stylesheet" href="/CSS/main.css" />
+    rel="stylesheet">
+  <link rel="icon" type="image/png" href="/website-project-1/images/Favicon_Ver_01.png">
+  <link rel="stylesheet" href="/CSS/main.css">
 
   <title>CV pagina</title>
 </head>
@@ -18,21 +19,31 @@
 <body>
   <main>
     <section>
+      <div class="fade">
+
+        <nav class="head">
+          <a href="index.html" aria-label="Link naar Hoofdpagina">Hoofdpagina</a>
+          <a href="hobbys.html" aria-label="Link naar Hobby's">Hobby's</a>
+          <a href="ervaringen.html" aria-label="Link naar ervaringen">Ervaringen</a>
+          <a href="overmij.html" aria-label="Link naar Over mij">Over mij</a>
+          <a href="contact.html" aria-label="Link naar Contacteer me">Contacteer me</a>
+        </nav>
+      </div>
       <div class="outercontainer">
         <div class="innercontainer fade">
-          <h1 class="mb15">CV</h1>
+          <h1 class="mb50 mt30">CV</h1>
 
           <div class="flexrowboxCV">
             <div class="flexcolboxCV">
               <h2 class="mb15">Contactgegevens</h2>
-              <p class="fontsize22">E-mailadres: <a href="mailto:perez.jens@hotmail.be">perez.jens@hotmail.be</a></p>
-              <p class="fontsize22">Telefoonnummer: +32478378606</p>
-              <p class="fontsize22">Adres: Dorp 20 bus5</p>
+              <p class="fontsize22">E-mail: <a href="mailto:r1100216@student.thomasmore.be">r1100216@student.thomasmore.be</a></p>
+              <p class="fontsize22">Telefoonnummer: +32?????????</p>
+              <a href="contact.html" aria-label="Link naar contactpagina"><p class="fontsize22">Adres: Klik hier als u dit wil weten</p></a>
+              
               <p class="fontsize22">BE-2360 OUD-TURNHOUT</p>
               <p class="fontsize22">België</p>
             </div>
-            <img class="cv" src="/website-project-1/images/480733954_4120195491537492_3924737717719755840_n.jpg"
-              alt="portret foto" />
+            <img class="cv" src="/images/480733954_4120195491537492_3924737717719755840_n.jpg" alt="portret foto">
           </div>
           <div class="flexrowboxCV">
 
@@ -67,6 +78,7 @@
                 <h2 class="mb15">Studies</h2>
                 <p class="fontsize22 mb10 mt20">
                   Leertijd: Sector Horeca
+                </p>
                 <p class="fontsize18 mb10">
                   Traiteur-Banketaannemer,
                 </p>
@@ -74,7 +86,7 @@
                   diploma behaald in 2010
                 </p>
 
-                </p>
+
                 <p class="fontsize22 mb10 mt20">
                   BSO 2de graad Secundair onderwijs
                 <p class="fontsize18 mb10">
@@ -84,7 +96,7 @@
                   Spijker, diploma behaald in 2008
                 </p>
 
-                </p>
+
                 <p class="fontsize22 mb10 mt20">
                   1ste graad Secundair onderwijs
                 <p class="fontsize18 mb10">
@@ -94,7 +106,7 @@
                   V.T.I. Spijker, diploma behaald in 2005
                 </p>
 
-                </p>
+
               </div>
               <div class="flexcolleft mt20">
                 <h2 class="mb15">Cursussen</h2>
@@ -163,6 +175,22 @@
       </div>
     </section>
   </main>
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p>&copy; 2025 Jens Perez-Queipo. Alle rechten voorbehouden.</p>
+      <div class="footer-icons">
+        <a href="mailto:perez.jens@hotmail.be" title="E-mail">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com" target="_blank" title="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://github.com" target="_blank" title="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
