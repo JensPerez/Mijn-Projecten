@@ -4,6 +4,7 @@
 }
 body{
     background-color: white;
+    overflow-x: hidden;
 }
 .footer-max{
     max-height: 10px;
@@ -18,11 +19,15 @@ i.size{
 }
 img.hero{
     border-radius: 5px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 img.card{
-    min-height: 262px;
-    min-width: 262px;
-    object-fit: cover;
+  height: 262px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
 }
 img.cv{
     width: 100%;
@@ -49,6 +54,35 @@ img.cv{
  i.contact{
     font-size: 100px;
  }
+  @media (max-width: 990px) {
+    i.contact {
+        font-size: 100px;
+    }
+        .mobilecenter {
+        justify-content: center !important;
+        text-align: center;
+    }
+}
+ @media (max-width: 768px) {
+    i.contact {
+        font-size: 75px;
+    }
+        .mobilecenter {
+        justify-content: center !important;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    i.contact {
+        font-size: 50px;
+    }
+
+    .mobilecenter {
+        justify-content: center !important;
+        text-align: center;
+    }
+}
  .section-hobby{
     min-height: 80vh;
  }
