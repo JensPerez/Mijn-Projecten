@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/default.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <main class="flex-fill">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">CodedbyJens</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-info" href="hobby's.html">Hobby's</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-info" href="mijnCV.html">Mijn CV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-info" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="row align-items-center g-lg-5 py-5">
+                    <div class="col-lg-7 text-center text-lg-start">
+                        <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Stel me gerust al je vragen!</h1>
+                        <p class="col-lg-10 fs-4">En voeg me toe op mijn socials!</p>
+                        <div class="d-flex justify-content-start gap-5 py-5">
+                            <a href="https://discordapp.com/users/1380524969330737324" target="_blank"
+                                aria-label="Link naar mijn Discord pagina">
+                                <i class="fa-brands fa-discord fa-2x contact"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/jens-perez-queipo-345711386" target="_blank"
+                                aria-label="Link naar mijn LinkedIn pagina">
+                                <i class="fa-brands fa-linkedin-in fa-2x contact"></i>
+                            </a>
+                            <a href="https://www.github.com" target="_blank" aria-label="Link naar mijn GitHub pagina">
+                                <i class="fa-brands fa-github fa-2x contact"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="text-center mb-4">
+                            <h2 class="fw-bold text-primary">Contacteer mij</h2>
+                            <p class="text-muted">Vul hieronder je gegevens in en ik neem zo snel mogelijk contact met
+                                je op.</p>
+                        </div>
+
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12">
+                                <div class="card shadow-sm border-0 rounded-4 p-4 bg-light">
+                                    <form method="post" action="https://tm-statweb.be/sendmail.php">
+                                        <div class="row g-3">
+                                            <div class="col-md-6">
+                                                <input type="text" class="form-control" name="voornaam"
+                                                    placeholder="Voornaam" required>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <input type="text" class="form-control" name="achternaam"
+                                                    placeholder="Achternaam" required>
+                                            </div>
+                                        </div>
+
+                                        <div class="mt-3">
+                                            <input type="email" class="form-control" name="e-mailadres"
+                                                placeholder="E-mailadres" required>
+                                        </div>
+
+                                        <div class="mt-3">
+                                            <select class="form-select" name="onderwerp" required>
+                                                <option value="" disabled selected>Over wat hebt u vragen?</option>
+                                                <option value="School">School</option>
+                                                <option value="Jobaanbieding">Jobaanbieding</option>
+                                                <option value="Project">Een project</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="mt-3">
+                                            <textarea class="form-control" name="Opmerking" rows="4"
+                                                placeholder="Uw bericht..." required></textarea>
+                                        </div>
+
+                                        <input type="hidden" name="studentemail" value="r1100216@student.thomasmore.be">
+
+                                        <div class="d-grid mt-4">
+                                            <button type="submit" class="btn btn-primary btn-lg rounded-pill">
+                                                Verzenden
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <div class="container-fluid bg-dark text-light py-4 mt-4">
+
+        <footer>
+            <div class="row justify-content-center text-center">
+                <div class="col-12 col-md-10 col-xs-12">
+                    <p class="text-center text-light">© 2025 Jens Perez-Queipo, Alle rechten voorbehouden</p>
+                    <div class=" d-flex justify-content-center gap-3">
+                        <a href="mailto:perez.jens@hotmail.be" title="E-mail">
+                            <i class="fa-solid fa-envelope text-info size"></i>
+                        </a>
+                        <a href="https://www.linkedin.com" target="_blank" title="LinkedIn">
+                            <i class="fa-brands fa-linkedin text-info size"></i>
+                        </a>
+                        <a href="https://github.com" target="_blank" title="GitHub">
+                            <i class="fa-brands fa-github text-info size"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

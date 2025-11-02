@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: white;
+}
+.footer-max{
+    max-height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+i.size{
+    font-size: 24px;
+}
+img.hero{
+    border-radius: 5px;
+}
+img.card{
+    min-height: 262px;
+    min-width: 262px;
+    object-fit: cover;
+}
+img.cv{
+    width: 100%;
+}
+.table{
+    table-layout: fixed;
+    width: 100%;
+}
+ .table td{
+    word-break: break-word;
+    white-space: normal;
+ }
+ .img-carousel{
+    max-width: 200px;
+    max-height: 200px;
+ }
+ .img-carousel-hobby{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border-radius: 10px;
+ }
+ i.contact{
+    font-size: 100px;
+ }
+ .section-hobby{
+    min-height: 80vh;
+ }
